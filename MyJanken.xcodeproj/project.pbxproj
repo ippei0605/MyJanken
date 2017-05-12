@@ -12,6 +12,8 @@
 		578644901EC551B300CA209F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5786448E1EC551B300CA209F /* Main.storyboard */; };
 		578644921EC551B300CA209F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578644911EC551B300CA209F /* Assets.xcassets */; };
 		578644951EC551B300CA209F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578644931EC551B300CA209F /* LaunchScreen.storyboard */; };
+		5786449D1EC5526B00CA209F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5786449C1EC5526B00CA209F /* .gitignore */; };
+		5786449F1EC56A5700CA209F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5786449E1EC56A5700CA209F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		578644911EC551B300CA209F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		578644941EC551B300CA209F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578644961EC551B300CA209F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5786449C1EC5526B00CA209F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5786449E1EC56A5700CA209F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		5786447E1EC551B300CA209F = {
 			isa = PBXGroup;
 			children = (
+				5786449E1EC56A5700CA209F /* README.md */,
+				5786449C1EC5526B00CA209F /* .gitignore */,
 				578644891EC551B300CA209F /* MyJanken */,
 				578644881EC551B300CA209F /* Products */,
 			);
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5786449D1EC5526B00CA209F /* .gitignore in Resources */,
 				578644951EC551B300CA209F /* LaunchScreen.storyboard in Resources */,
 				578644921EC551B300CA209F /* Assets.xcassets in Resources */,
 				578644901EC551B300CA209F /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5786449F1EC56A5700CA209F /* README.md in Sources */,
 				5786448D1EC551B300CA209F /* ViewController.swift in Sources */,
 				5786448B1EC551B300CA209F /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +310,7 @@
 				5786449B1EC551B300CA209F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
